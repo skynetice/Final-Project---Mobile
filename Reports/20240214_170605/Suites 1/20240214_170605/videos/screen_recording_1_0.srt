@@ -1,0 +1,28 @@
+1
+00:00:00,201 --> 00:00:21,595
+1. startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk", true)
+
+2
+00:00:21,600 --> 00:00:24,360
+5. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.ImageView"), 0)
+
+3
+00:00:24,360 --> 00:00:25,166
+9. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.LinearLayout"), 0)
+
+4
+00:00:25,166 --> 00:00:28,754
+13. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutUsername"), username, 0)
+
+5
+00:00:28,754 --> 00:00:32,037
+17. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutPW"), password, 0)
+
+6
+00:00:32,038 --> 00:00:32,485
+21. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - LOGIN"), 0)
+
+7
+00:00:32,486 --> 00:00:32,489
+25. if (isValid == "true")
+
