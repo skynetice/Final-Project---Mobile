@@ -31,15 +31,27 @@ Mobile.tap(findTestObject('Object Repository/TC 1 - Login/android.widget.Button 
 
 Mobile.tap(findTestObject('Object Repository/TC 1 - Login/android.widget.Button - NO'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TC 1 - Login/android.widget.ImageView'), 0)
+Mobile.setText(findTestObject('Object Repository/TC 2 - Cart/android.widget.EditText - Search'), 'pavilion', 0)
 
-namaUser = Mobile.getText(findTestObject('Object Repository/TC 1 - Login/android.widget.TextView - nicehsk'), 0)
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.ImageView'), 0)
 
-Mobile.verifyElementText(findTestObject('TC 1 - Login/android.widget.TextView - nicehsk'), 'nicehsk')
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.RelativeLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TC 1 - Login/android.widget.TextView - SIGN OUT'), 0)
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.LinearLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TC 1 - Login/android.widget.Button - YES'), 0)
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.TextView - APPLY'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.Button - ADD TO CART'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TC 2 - Cart/android.widget.TextView - Remove'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/TC 2 - Cart/android.widget.TextView - Shopping Cart (0)'), 'Shopping Cart (0) ')
 
 Mobile.closeApplication()
 
