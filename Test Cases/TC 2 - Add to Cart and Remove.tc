@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 1 - Login old</name>
+   <name>TC 2 - Add to Cart and Remove</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>48e2df6c-0efc-4593-892a-cdeb3c7b19bc</testCaseGuid>
