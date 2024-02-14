@@ -1,0 +1,56 @@
+1
+00:00:00,233 --> 00:00:21,746
+1. startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk", true)
+
+2
+00:00:21,755 --> 00:00:24,862
+5. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.ImageView"), 0)
+
+3
+00:00:24,862 --> 00:00:26,086
+9. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.LinearLayout"), 0)
+
+4
+00:00:26,087 --> 00:00:29,759
+13. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutUsername"), username, 0)
+
+5
+00:00:29,759 --> 00:00:33,181
+17. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutPW"), password, 0)
+
+6
+00:00:33,182 --> 00:00:35,339
+21. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - LOGIN"), 0)
+
+7
+00:00:35,340 --> 00:00:35,343
+25. if (isValid == "true")
+
+8
+00:00:35,344 --> 00:00:38,119
+1. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - NO"), 0)
+
+9
+00:00:38,120 --> 00:00:40,479
+5. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.ImageView"), 0)
+
+10
+00:00:40,479 --> 00:00:41,418
+9. namaUser = getText(findTestObject("Object Repository/TC 1 - Login/android.widget.TextView - nicehsk"), 0)
+
+11
+00:00:41,418 --> 00:00:43,206
+13. verifyElementText(findTestObject("TC 1 - Login/android.widget.TextView - nicehsk"), username)
+
+12
+00:00:43,207 --> 00:00:44,240
+17. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.TextView - SIGN OUT"), 0)
+
+13
+00:00:44,241 --> 00:00:45,401
+21. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - YES"), 0)
+
+14
+00:00:45,402 --> 00:00:47,045
+25. closeApplication()
+

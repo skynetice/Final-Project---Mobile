@@ -1,0 +1,76 @@
+1
+00:00:00,044 --> 00:00:17,141
+1. startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk", true)
+
+2
+00:00:17,142 --> 00:00:21,158
+5. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.ImageView"), 0)
+
+3
+00:00:21,159 --> 00:00:21,831
+9. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.LinearLayout"), 0)
+
+4
+00:00:21,832 --> 00:00:27,043
+13. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutUsername"), "nicehsk", 0)
+
+5
+00:00:27,044 --> 00:00:29,967
+17. setText(findTestObject("TC 1 - Login/android.widget.RelativeLayoutPW"), "Bumblebee1", 0)
+
+6
+00:00:29,967 --> 00:00:30,921
+21. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - LOGIN"), 0)
+
+7
+00:00:30,922 --> 00:00:33,576
+25. tap(findTestObject("Object Repository/TC 1 - Login/android.widget.Button - NO"), 0)
+
+8
+00:00:33,576 --> 00:00:38,415
+29. setText(findTestObject("Object Repository/TC 2 - Cart/android.widget.EditText - Search"), "pavilion", 0)
+
+9
+00:00:38,415 --> 00:00:40,635
+33. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.ImageView"), 0)
+
+10
+00:00:40,636 --> 00:00:43,793
+37. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.RelativeLayout"), 0)
+
+11
+00:00:43,793 --> 00:00:44,361
+41. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.LinearLayout"), 0)
+
+12
+00:00:44,362 --> 00:00:46,448
+45. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.ImageView (1)"), 0)
+
+13
+00:00:46,449 --> 00:00:46,872
+49. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.ImageView (1)"), 0)
+
+14
+00:00:46,873 --> 00:00:49,146
+53. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.TextView - APPLY"), 0)
+
+15
+00:00:49,146 --> 00:00:50,609
+57. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.Button - ADD TO CART"), 0)
+
+16
+00:00:50,609 --> 00:00:52,675
+61. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.ImageView (2)"), 0)
+
+17
+00:00:52,676 --> 00:00:54,524
+65. tap(findTestObject("Object Repository/TC 2 - Cart/android.widget.TextView - Remove"), 0)
+
+18
+00:00:54,524 --> 00:00:56,328
+69. verifyElementText(findTestObject("Object Repository/TC 2 - Cart/android.widget.TextView - Shopping Cart (0)"), "Shopping Cart (0) ")
+
+19
+00:00:56,329 --> 00:00:57,962
+73. closeApplication()
+
