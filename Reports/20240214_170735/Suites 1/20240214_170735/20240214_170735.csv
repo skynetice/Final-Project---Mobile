@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites 1,,,,14-02-2024 17:07:39,14-02-2024 17:10:06,2m - 27.115s,PASSED
+,,,,,,,
+Test Cases/TC 1 - Login,,,,14-02-2024 17:07:39,14-02-2024 17:08:28,49.348s,PASSED
+"startApplication(""C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 17:07:40,14-02-2024 17:08:01,21.512s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.ImageView""), 0)",,,,14-02-2024 17:08:01,14-02-2024 17:08:04,3.105s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.LinearLayout""), 0)",,,,14-02-2024 17:08:04,14-02-2024 17:08:05,1.225s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutUsername""), username, 0)",,,,14-02-2024 17:08:05,14-02-2024 17:08:09,3.672s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutPW""), password, 0)",,,,14-02-2024 17:08:09,14-02-2024 17:08:12,3.423s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 17:08:12,14-02-2024 17:08:15,2.158s,PASSED
+"if (isValid == ""true"")",,,,14-02-2024 17:08:15,14-02-2024 17:08:26,11.704s,PASSED
+Video,,,,14-02-2024 17:08:28,14-02-2024 17:08:28,0.000s,PASSED
+,,,,,,,
+Test Cases/TC 1 - Login,,,,14-02-2024 17:08:28,14-02-2024 17:09:06,37.500s,PASSED
+"startApplication(""C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 17:08:28,14-02-2024 17:08:46,17.128s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.ImageView""), 0)",,,,14-02-2024 17:08:46,14-02-2024 17:08:49,3.844s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.LinearLayout""), 0)",,,,14-02-2024 17:08:49,14-02-2024 17:08:50,0.767s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutUsername""), username, 0)",,,,14-02-2024 17:08:50,14-02-2024 17:08:56,5.459s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutPW""), password, 0)",,,,14-02-2024 17:08:56,14-02-2024 17:08:59,2.907s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 17:08:59,14-02-2024 17:09:00,1.692s,PASSED
+"if (isValid == ""true"")",,,,14-02-2024 17:09:00,14-02-2024 17:09:00,0.001s,PASSED
+else,,,,14-02-2024 17:09:00,14-02-2024 17:09:04,3.639s,PASSED
+Video,,,,14-02-2024 17:09:06,14-02-2024 17:09:06,0.002s,PASSED
+,,,,,,,
+Test Cases/TC 2 - Add to Cart and Remove,,,,14-02-2024 17:09:06,14-02-2024 17:10:06,1m - 0.020s,PASSED
+"startApplication(""C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\Shop\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 17:09:06,14-02-2024 17:09:23,17.099s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.ImageView""), 0)",,,,14-02-2024 17:09:23,14-02-2024 17:09:27,4.016s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.LinearLayout""), 0)",,,,14-02-2024 17:09:27,14-02-2024 17:09:28,0.672s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutUsername""), ""nicehsk"", 0)",,,,14-02-2024 17:09:28,14-02-2024 17:09:33,5.211s,PASSED
+"setText(findTestObject(""TC 1 - Login/android.widget.RelativeLayoutPW""), ""Bumblebee1"", 0)",,,,14-02-2024 17:09:33,14-02-2024 17:09:36,2.923s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 17:09:36,14-02-2024 17:09:37,0.954s,PASSED
+"tap(findTestObject(""Object Repository/TC 1 - Login/android.widget.Button - NO""), 0)",,,,14-02-2024 17:09:37,14-02-2024 17:09:39,2.654s,PASSED
+"setText(findTestObject(""Object Repository/TC 2 - Cart/android.widget.EditText - Search""), ""pavilion"", 0)",,,,14-02-2024 17:09:39,14-02-2024 17:09:44,4.839s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.ImageView""), 0)",,,,14-02-2024 17:09:44,14-02-2024 17:09:47,2.221s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.RelativeLayout""), 0)",,,,14-02-2024 17:09:47,14-02-2024 17:09:50,3.157s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.LinearLayout""), 0)",,,,14-02-2024 17:09:50,14-02-2024 17:09:50,0.568s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.ImageView (1)""), 0)",,,,14-02-2024 17:09:50,14-02-2024 17:09:52,2.086s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.ImageView (1)""), 0)",,,,14-02-2024 17:09:52,14-02-2024 17:09:53,0.424s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.TextView - APPLY""), 0)",,,,14-02-2024 17:09:53,14-02-2024 17:09:55,2.273s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.Button - ADD TO CART""), 0)",,,,14-02-2024 17:09:55,14-02-2024 17:09:57,1.463s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.ImageView (2)""), 0)",,,,14-02-2024 17:09:57,14-02-2024 17:09:59,2.066s,PASSED
+"tap(findTestObject(""Object Repository/TC 2 - Cart/android.widget.TextView - Remove""), 0)",,,,14-02-2024 17:09:59,14-02-2024 17:10:00,1.848s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC 2 - Cart/android.widget.TextView - Shopping Cart (0)""), ""Shopping Cart (0) "")",,,,14-02-2024 17:10:00,14-02-2024 17:10:02,1.804s,PASSED
+closeApplication(),,,,14-02-2024 17:10:02,14-02-2024 17:10:04,1.631s,PASSED
+Video,,,,14-02-2024 17:10:06,14-02-2024 17:10:06,0.001s,PASSED
