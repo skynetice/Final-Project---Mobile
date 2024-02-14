@@ -1,0 +1,2 @@
+[38;5;80m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;16m[AppiumDriver@b6b7][0m Had trouble ending session 1bdf50bb-f93e-41b9-bece-0c9695b4276e: Could not find a connected Android device in 20000ms
